@@ -19,7 +19,7 @@ Réaliser le backend et l'API de l'application en respectant de sécurités
 
 ## Technologies utilisées
 
-JavaScript, Node.js, Express.js, MongoDB
+JavaScript, NodeJs, ExpressJs, MongoDB
 
 ## Compétences évaluées
 
@@ -40,7 +40,7 @@ Le serveur doit s'exécuter sur `localhost` avec le port par défaut `3000`. Si 
 
 [Lien vers le repo Github de la partie Front](https://github.com/OpenClassrooms-Student-Center/dwj-projet6) 
 
-Suivre les intructions
+Suivre les instructions
 
 ## Auteur
 
