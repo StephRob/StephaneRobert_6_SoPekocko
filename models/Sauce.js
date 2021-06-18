@@ -7,20 +7,14 @@ const sauceSchema = mongoose.Schema({
   name: {
     type: String,
     required: true,
-    minLength: [3,'3 caractères minimum'],
-    maxLength: [20, '20 caractères maximum'],
   },
   manufacturer: {
     type: String,
     required: true,
-    minLength: [3,'3 caractères minimum'],
-    maxLength: [20, '20 caractères maximum'],
   },
   description: {
     type: String,
     required: true,
-    minLength: [3,'3 caractères minimum'],
-    maxLength: [120, '120 caractères maximum'],
   },
   heat: { type: Number, required: true },
   likes: { type: Number},
@@ -29,8 +23,6 @@ const sauceSchema = mongoose.Schema({
   mainPepper: {
     type: String,
     required: true,
-    minLength: [3,'3 caractères minimum'],
-    maxLength: [20, '20 caractères maximum'],
   },
   usersLiked: { type: [String]},
   usersDisliked: { type: [String]},
