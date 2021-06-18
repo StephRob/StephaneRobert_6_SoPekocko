@@ -27,11 +27,7 @@ JavaScript, Node.js, Express.js, MongoDB
 - Stocker des données de manière sécurisée
 - Implémenter un modèle logique de données conformément à la réglementation
 
-## Frontend
-
-[Lien vers le repo Github de la partie Front](https://github.com/OpenClassrooms-Student-Center/dwj-projet6)
-
-### Prérequis pour ce projet
+## Prérequis pour ce projet
 
 Vous devrez avoir Node et `npm` installés localement sur votre machine.
 
@@ -39,6 +35,10 @@ Vous devrez avoir Node et `npm` installés localement sur votre machine.
 
 Clonez ce repo. À partir du dossier du projet, exécutez `npm install`. Vous pouvez ensuite exécuter le serveur avec `nodemon server`.
 Le serveur doit s'exécuter sur `localhost` avec le port par défaut `3000`. Si le serveur s'exécute sur un autre port pour une raison quelconque, cela est affiché sur la console lorsque le serveur démarre, par ex. `Listening on port 3001`.
+
+## Frontend
+
+[Lien vers le repo Github de la partie Front](https://github.com/OpenClassrooms-Student-Center/dwj-projet6)
 
 ## Auteur
 
