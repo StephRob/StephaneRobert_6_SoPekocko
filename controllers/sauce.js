@@ -62,7 +62,7 @@ exports.getAllSauces = (req, res, next) => {
     .catch(error => res.status(400).json({ error }));
 };
 
-// PUT: On gère le likes et dislikes
+// POST: On gère le likes et dislikes
 exports.likeDislikeSauce = (req, res, next) => {
   switch (req.body.like) {
     case 1: // On incremente de 1 les likes
